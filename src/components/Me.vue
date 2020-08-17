@@ -1,6 +1,7 @@
 <template>
   <div>
-    <v-button></v-button>
+    HELLOOO
+    <v-btn>Success!</v-btn>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Me extends Vue {
-  @Prop() private msg!: string;
+  // @Prop() private msg!: string;
 }
 </script>
 
